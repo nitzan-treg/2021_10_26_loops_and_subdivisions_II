@@ -1,15 +1,12 @@
-#  Polar Particles
-This is an experiment with particles and polar coordinates, I tried to create an interesting animation by animating the U, V or Radius compounents of the Polar Coordinates
+#  Loops And Subdivisions II
+This project is based on Entagma's tutorial: https://entagma.com/loops-subdivisions/
+the tutorial teachs how to recursively subdivide and deform geometry.
 
-<img src="Images/RS_Render.png">
+This is my second take on this subject, you can look at the previous project at ~insert github page~ #####################
+The scene is rendred in Mantra.
 
-the particles were created with a particle simulation with pop force and axis force to make them spin around the Y axis.
+<img src="Images/loops_and_subdivisions_II.jpg">
 
-<img alt = "gif" src="Images/Particle_Pre_Polar.gif">
+Animating the Extrude parameters results in an interesting animation
 
-Afterward I would normalize the Position attribute, convert it to polar cordiantes, add the world and polar position togerher, while animating the world position. 
-<img alt = "gif" src="Images/Particle_Post_Polar.gif">
-
-Full Node Tree:
-<img src="Images/Node Tree.png">
-
+<img alt = "gif" src="Images/Animation.gif">
